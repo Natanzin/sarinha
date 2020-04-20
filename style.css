@@ -1,0 +1,63 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font: 10px "Lato", sans-serif;
+  color: #fff;
+  height: 100%;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.img1 {
+  background-image: url(imagens/img1.jpg);
+}
+.img2 {
+  background-image: url(imagens/img2.jpg);
+}
+.img3 {
+  background-image: url(imagens/img3.jpg);
+}
+.img4 {
+  background-image: url(imagens/img4.jpg);
+}
+.img5 {
+  background-image: url(imagens/img5.jpg);
+}
+.img6 {
+  background-image: url(imagens/img6.jpg);
+}
+.img7 {
+  background-image: url(imagens/img7.jpg);
+}
+.img8 {
+  background-image: url(imagens/img8.jpg);
+}
+
+.conteudo-titulo {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.conteudo {
+  width: 80%;
+  margin: 0 auto;
+  color: #000;
+  padding: 40px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
